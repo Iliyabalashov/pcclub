@@ -1,0 +1,243 @@
+@keyframes colors
+{
+	0% {color:yellow; text-shadow:20px 20px 20px yellow;}
+	25% {color:red; text-shadow:-20px 20px 20px red;}
+	50% {color:green; text-shadow:-20px -20px 20px green;}
+	75% {color:white; text-shadow:20px -20px 20px white;}
+	100% {color:yellow;text-shadow:20px 20px 20px yellow;}
+}
+@keyframes books
+{
+	0% {font-size:100px;}
+	10% {font-size:105px;}
+	20% {font-size:100px;}
+}
+@keyframes zvon
+{
+	0% {background:blue;}
+	50% {color:white;}
+	100% {color:blue;}
+}
+@keyframes menus
+{
+0% {font-size:28pt;}
+25% {font-size:28.5pt;}
+50% {font-size:29pt;}
+75% {font-size:28.5pt;}
+100% {font-size:28pt;}
+}
+@keyframes v
+{
+	0% {color:yellow; }
+	25% {color:red; }
+	50% {color:green;}
+	75% {color:white;}
+	100% {color:yellow;}
+}
+@keyframes p
+{
+	0% {color:red;}
+	25% {color:yellow;}
+	50% {color:blue;}
+	75% {color:green;}
+	100% {color:red;}
+}
+@keyframes club
+{
+	0% {font-size:26pt;}
+	50% {font-size:27pt;}
+	100% {font-size:26pt;}
+}
+.htwo
+{
+	width:1703px;
+	height:115px;
+}
+.vv
+{
+	animation:v 2s infinite;
+}
+.pp
+{
+	animation:p 2s infinite;
+}
+.clubb
+{
+	animation:club 2s infinite;
+}
+header
+{
+	height:100px;
+	background:grey;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+.vrclub
+{
+	width:160px;
+	height:42px;
+}
+body
+{
+	margin:50 50;
+	font-family:Arial;
+}
+h1
+{
+	font-size:26pt;
+	margin:0 0;
+}
+main
+{
+	background:url(../farm.jpg) no-repeat;
+	background-size:cover;
+	width:100%;
+	height:100%;
+}
+h2
+{
+	display:flex;
+	justify-content:center;
+	font-size:100px;
+	color:yellow;
+	margin:0 0;
+	padding:50px;
+	animation:books 2s infinite;
+}
+h3
+{
+	display:flex;
+	justify-content:center;
+	font-size:500px;
+	color:yellow;
+	margin:0 0;
+	animation:colors 3s infinite;
+	margin-top:30px;
+}
+.menu
+{
+	display:flex;
+	justify-content:space-between;
+	width:100%;
+	align-items:center;
+	background:grey;
+	width:100wh;
+	padding:0 20;
+}
+div
+{
+	display:inline-block;
+}
+p, li, a
+{
+	font-size:28pt;
+}
+li
+{
+	display:inline;
+}
+a
+{
+	text-decoration:none;
+	border:5px black solid;
+	border-radius: 20%;
+	padding:7 7;
+	color:black;
+	background:yellow;
+}
+a:visited
+{
+	color:red;
+}
+a:hover
+{
+	color:white;
+	border:5px green solid;
+	background:blue;
+	animation:menus 1s infinite;
+}
+a:active
+{
+	font-size:100%;
+}
+p, li
+{
+	margin:30 10;
+}
+select
+{
+	font-size:28pt;
+	background:grey;
+	border-radius:15px;
+	border:3px white solid;
+}
+.zvonok
+{
+	animation:zvon 1s infinite;
+	border-radius:15px;
+	display:inline-block;
+	border:5px red outset;
+	color:yellow;
+	width:300px;
+}
+.zvonok:active
+{
+	border:5px red inset;
+	color:red;
+	background:blue;
+}
+.zvonok:hover
+{
+	color:yellow;
+	animation:none;
+	background:blue;
+}
+.zvonok p
+{
+	margin:5 10;
+}
+.zvonok p:active
+{
+	font-size:26pt;
+}
+.kompik
+{
+	width:80%;
+}
+.foot
+{
+	background:grey;
+	width:100wh;
+	padding:0 20;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.icon
+{
+	display:flex;
+	justify-content:space-between;
+}
+.icon div
+{
+	border:2px white solid;
+	border-radius:22px;
+	margin:10 10;
+	padding:10 10;
+	height:20px;
+	width:20px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.icon div:hover
+{
+	font-size:120%;
+	color:green;
+	background:yellow;
+}
+.icon div:active
+{
+	font-size:100%;
+}
